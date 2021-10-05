@@ -8,14 +8,19 @@ cu<!doctype html>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Montserrat font import-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <script defer src="fontawesome/js/all.js"></script>
     <title>William Huang</title>
     <style>
         html,
         body {
             height: 100%;
-            font-family: 'Merriweather Sans', sans-serif;
+            /*font-family: 'Merriweather Sans', sans-serif;*/
+            font-family: 'Montserrat', sans-serif;
             scroll-behavior: smooth;
         }
 
@@ -35,12 +40,11 @@ cu<!doctype html>
             border: 2px solid black;
             opacity: 0.5;
             transition: 0.3s;
-
         }
 
-        .btn-outline:hover {
-            opacity: 1;
-        }
+            .btn-outline:hover {
+                opacity: 1;
+            }
 
         .lang {
             height: 60px;
@@ -51,9 +55,9 @@ cu<!doctype html>
             font-size: 65px;
         }
 
-        .contacticon a {
-            color: rgb(33, 37, 41);
-        }
+            .contacticon a {
+                color: rgb(33, 37, 41);
+            }
 
         .course {
             margin: 0 10px;
@@ -66,18 +70,17 @@ cu<!doctype html>
             align-items: center;
         }
 
-        .course h5 {
-            margin: 0;
-        }
+            .course h5 {
+                margin: 0;
+            }
 
         .next {
             font-size: 65px;
         }
 
-        .next a {
-            color: rgb(33, 37, 41);
-        }
-
+            .next a {
+                color: rgb(33, 37, 41);
+            }
     </style>
 </head>
 
@@ -177,6 +180,14 @@ cu<!doctype html>
             <div class="col my-3">
                 <img src="images/bootstrap.png" class="lang" data-toggle="tooltip" data-placement="top"
                      title="Bootstrap" />
+            </div>
+            <div class="col my-3">
+                <img src="images/sqlite.png" class="lang" data-toggle="tooltip" data-placement="top"
+                     title="SQLite" />
+            </div>
+            <div class="col my-3">
+                <img src="images/postman.png" class="lang" data-toggle="tooltip" data-placement="top"
+                     title="Postman" />
             </div>
         </div>
         <div class="row my-4">
